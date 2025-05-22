@@ -15,10 +15,15 @@
         }
     ],
     "require": {
+        "civictheme/civictheme_content": "^1.10",
         "composer/installers": "^2.0",
+        "drupal/civictheme": "^1.10",
         "drupal/core-composer-scaffold": "^11.0",
         "drupal/core-project-message": "^11.0",
-        "drupal/core-recommended": "^11.0"
+        "drupal/core-recommended": "^11.0",
+        "drupal/default_content": "^2.0@alpha",
+        "drupal/search_api_db": "^1.38",
+        "drupal/webform": "^6.3@beta"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -94,6 +99,6 @@
         }
     },
     "require-dev": {
-        "drush/drush": "^13.3"
+        "drush/drush": "^13.5"
     }
 }
